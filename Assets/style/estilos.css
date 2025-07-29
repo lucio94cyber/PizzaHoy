@@ -338,11 +338,12 @@ a{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         justify-content: center;
-        padding: 20px;
+        margin: 10px;
+        padding: 10px;
     }
     .grid-container img{
-        width: 50vh;
-        height: 50vh;
+        width: 45vh;
+        height: 40vh;
         object-fit: cover;
 }
 .curso h3{
