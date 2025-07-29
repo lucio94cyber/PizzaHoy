@@ -338,18 +338,17 @@ a{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         justify-content: center;
-        margin: 10px;
         padding: 10px;
     }
     .grid-container img{
-        width: 45vh;
-        height: 40vh;
+        width: 50vh;
+        height: 50vh;
         object-fit: cover;
 }
-.curso h3{
+    .curso h3{
     font-size: 1rem;
 }
-.curso p {
+    .curso p {
     font-size: 0.9em;
 }
 .calendario-lista{
