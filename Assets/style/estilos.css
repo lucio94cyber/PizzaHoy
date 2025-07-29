@@ -212,7 +212,7 @@ a{
     .galeria_portada{
         display: flex;
         flex-wrap: nowrap;
-        margin: none;
+        margin: 10px;
     }
     .galeria_portada img{
         width: 20%;
@@ -407,8 +407,8 @@ a{
 }
 
 .evento img {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -449,8 +449,8 @@ a{
         flex-wrap: wrap;
     }
     .evento img{
-        width: 120px;
-        height: auto;
+        width: 150px;
+        height: 150px;
     }
     .texto h3 {
     font-size: 1.5rem;
