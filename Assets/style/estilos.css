@@ -345,6 +345,9 @@ a{
         height: 50vh;
         object-fit: cover;
 }
+.curso {
+    border: none;
+}
     .curso h3{
     font-size: 1rem;
 }
