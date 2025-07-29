@@ -215,8 +215,8 @@ a{
         margin: 10px;
     }
     .galeria_portada img{
-        width: 20%;
-        height: auto;
+        width: 60px;
+        height: 150px;
         object-fit: cover;
     }
 }
@@ -351,7 +351,7 @@ a{
     box-shadow: 0 5px;
 }
     .curso h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
     .curso p {
     font-size: 0.9em;
