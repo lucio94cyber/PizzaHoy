@@ -342,8 +342,9 @@ a{
         padding: 5px;
     }
     .grid-container img{
-        width: 50vh;
-        height: 50vh;
+        width: 100%;
+        height: auto;
+        max-width: 400px;
         object-fit: cover;
         box-shadow: 0 4px 5px rgba(0,0,0,0.4);
 }
