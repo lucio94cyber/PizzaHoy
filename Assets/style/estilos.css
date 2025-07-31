@@ -17,10 +17,11 @@ body{
     background-color:rgba(177, 4, 4, 0.904);
     color:rgba(255, 255, 255, 0.932);
     overflow-x: hidden;
+    padding-top: 120px;
 }
 
 body h1{
-    text-transform: uppercase;
+    text-transform:uppercase
 }
 
 ul {
@@ -41,11 +42,17 @@ a{
     font-size: 24px;
     background-color:rgba(226, 29, 29, 1);
     color: rgba(255, 255, 255, 0.932);
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 9999; /* Muy importante para que esté por encima de todo */
 }
 
+.logo{
+    width: 100%;
+    max-width: 100px;
+}
 .menu_general ul{
     display: flex;
     gap: 30px;
@@ -71,17 +78,22 @@ a{
         padding: 5px;
     }
     .menu_general h1{
-        font-size: 25px;
-        margin: 0;
+        display: none;
+    }
+    .menu_general img{
+        width: 100%;
+        max-width: 120px;
+        padding: 5px;
     }
     .menu_general ul{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         font-size: 1rem;
-        gap:10px;
+        gap: 15px;
+        padding: 5px;
         margin: 0;
-        padding: 0;
+        margin-top: -30px;
     }
 }
 
@@ -271,6 +283,7 @@ a{
     }
     .productos h2{
         font-size: 2rem;
+        margin-top: 40px;
     }
     .venta_productos{
         display: flex;
@@ -294,6 +307,7 @@ a{
     font-size: 40px;
     text-align: center;
     margin: 10px;
+    text-transform: uppercase;
 }
 
 .grid-container{
@@ -333,6 +347,10 @@ a{
 }
 
 @media (min-width: 320px) and (max-width:430px){
+    .contenedor_curso h2{
+        font-size: 2rem;
+        margin-top: 40px;
+    }
     .grid-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -374,6 +392,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
 }
 
 .historia h2 {
@@ -439,10 +458,11 @@ a{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 5px;
+        margin: 10px;
     }
     .historia h2{
         font-size: 2rem;
+        margin-top: 40px;
     }
     .timeline{
         display: flex;
@@ -496,12 +516,17 @@ a{
 .forms_sobre_video{
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 60%;
     left: 50%;
     z-index: 2;
     transform: translate(-50%, -50%)/* Esto lo centra de verdad */;
     width: 300px; /*mantiene compacto el formulario*/
     padding: 60px;
+    font-size: 15px;
+    font: bold;
+}
+
+label{
     font-size: 20px;
     font: bold;
 }
@@ -513,6 +538,7 @@ a{
     }
     .contacto_portada h2{
         font-size: 2rem;
+        margin-top: 40px;
     }
     .contenedor{
     position: relative;
