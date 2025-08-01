@@ -120,7 +120,8 @@ a{
 }
 
 .portal_texto button{
-    font-size:25px;
+    font-family:'Playwrite Australia QLD';
+    font-size:1.2rem;
     background-color: rgba(248, 171, 71, 0.685);
     margin: 40px;
     padding: 20px;
@@ -361,6 +362,7 @@ a{
     .grid-container img{
         width: 100%;
         max-width: 350px;
+        height: 150px;
         object-fit: cover;
         box-shadow: 0 4px 5px rgba(0,0,0,0.4);
 }
