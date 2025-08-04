@@ -169,12 +169,6 @@ a{
     padding: 10px;;
 }
 
-.contenedor2 h2{
-    font-size:30px;
-    color: rgba(255, 255, 255, 0.932);
-    text-transform: uppercase;
-}
-
 .galeria_portada{
     display: flex;
     flex-wrap: wrap;
