@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+$fuente:"Dancing Script";
+$colorprimario:rgba(177, 4, 4, 0.904);
+$colorsecundario:rgba(255, 255, 255, 0.932);
+
+*{
+    font-family:$fuente;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:$colorprimario;
+    color:$colorsecundario;
+    overflow-x: hidden;
+    padding-top: 120px;
+}
+
+body h1{
+    text-transform:uppercase
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@mixin mobile {
+    @media (min-width: 320px) and (max-width:430px) {
+        @content;
+        }
+}

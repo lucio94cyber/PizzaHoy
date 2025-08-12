@@ -1,0 +1,33 @@
+@use "variables" as v;
+
+.menu_general{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap:20px;
+    padding: 10px;
+    font-size: 24px;
+    background-color:rgba(226, 29, 29, 1);
+    color: rgba(255, 255, 255, 0.932);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Muy importante para que esté por encima de todo */
+    .logo{
+        width: 100%;
+        max-width: 100px;
+    }
+    ul{
+        display: flex;
+        gap: 30px;
+    }
+    a{
+        color:v.$colorsecundario;
+    } & a:hover{
+        outline: 2px solid  v.$colorsecundario;
+        background-color: v.$colorprimario;
+        color: v.$colorsecundario;
+        border-radius: 5px;
+    }
+}
