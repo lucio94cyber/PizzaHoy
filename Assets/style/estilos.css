@@ -206,23 +206,15 @@ a{
         padding: 5px;
     }
     .contenedor2{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         margin: none;
     }
-    .contenedor2 h2{
-        font-size: 1rem;
-        font: bold;
-        margin: 5px;
-    }
-    .galeria_portada{
-        display: flex;
-        flex-wrap: nowrap;
-        margin: 10px;
-    }
     .galeria_portada img{
-        width: 60px;
-        height: 150px;
+        width: 100%;
+        max-width: 120px;
+        height: 200px;
         object-fit: cover;
     }
 }
