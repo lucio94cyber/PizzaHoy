@@ -1,0 +1,38 @@
+@use "variables" as v;
+
+/*MAIN*/
+
+    .portal_principal{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        background-image: url(../img/portada_pagina.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .portal_texto{
+        text-align: center;
+    h2{
+        font-size:50px;
+    color: v.$colorsecundario;
+    text-transform: uppercase;
+    }
+    button{
+        font-family: v.$fuentesecundario;
+        font-size:1.2rem;
+        background-color: v.$colorterciario;
+        margin: 40px;
+        padding: 20px;
+        font-style:italic;
+        font-weight: bold;
+    &:hover{
+        background-color: v.$colorcuarto;
+        color:v.$colorsecundario;
+    }}
+    a{
+        color:v.$colorsecundario;
+    }
+}
+
+/*Carousel*/

@@ -555,12 +555,12 @@ label{
     margin-top: 20px;
 }
 
-.footer_lista {
+.footer_titulo ul {
     display: flex;
     gap: 20px;
 }
 
-.footer_lista img {
+.footer_titulo img {
     width: 40px;
     height: auto;
 }
