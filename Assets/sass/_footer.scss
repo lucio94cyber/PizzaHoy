@@ -1,0 +1,24 @@
+@use "variables" as v;
+
+.footer_titulo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: v.$colorsecundario
+        position: static;
+        margin-top: 20px;
+    h2{
+        font-size: 1rem;
+    }
+    .footer{
+
+    }
+    .footer_lista{
+        display: flex;
+        gap: 20px;
+    }
+    .footer_lista img{
+            width: 40px;
+            height: auto;
+    }
+}
