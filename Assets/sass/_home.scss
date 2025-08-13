@@ -54,6 +54,7 @@
 
 .delivery{
     margin:0;
+    animation: delivery 2s ease-in-out infinite alternate;
     img{
     width: 100%;
     height: auto;
@@ -62,13 +63,9 @@
 @keyframes delivery {
     0%{
         transform: scale(0.8);
-
     }
     100%{
         transform: scale(1);
 
     }
-}
-.delivery{
-  animation: delivery 2s ease-in-out infinite alternate;
 }

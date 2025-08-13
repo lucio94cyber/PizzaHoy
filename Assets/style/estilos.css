@@ -135,6 +135,7 @@ body a {
 /*FIN Carousel*/
 .delivery {
   margin: 0;
+  animation: delivery 2s ease-in-out infinite alternate;
 }
 .delivery img {
   width: 100%;
@@ -148,9 +149,6 @@ body a {
   100% {
     transform: scale(1);
   }
-}
-.delivery {
-  animation: delivery 2s ease-in-out infinite alternate;
 }
 
 /*# sourceMappingURL=estilos.css.map */
