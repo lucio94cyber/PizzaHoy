@@ -4,10 +4,11 @@
 .footer_titulo{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content:space-between;
         color: v.$colorsecundario;
         position: static;
         margin-top: 20px;
+
     h2{
         font-size: 1.5rem;
     }
@@ -15,8 +16,8 @@
         display: flex;
         gap: 20px;
     img{
-            width: 40px;
-            height: auto;
+        width: 40px;
+        height: auto;
     }
 }
 }
@@ -25,13 +26,22 @@
     .footer_titulo{
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        align-items: center;
+        justify-content: space-between;
         margin:5px;
-    }
-    h2{
+    ul{
+    display: flex;                    // fuerza fila
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+        }
+    
+        h2{
         display: none;
     }
+    
     img{
         width: 30px;
     }
-}
+}}

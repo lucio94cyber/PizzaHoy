@@ -111,13 +111,21 @@ body a {
   .footer_titulo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     margin: 5px;
   }
-  h2 {
+  .footer_titulo ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .footer_titulo h2 {
     display: none;
   }
-  img {
+  .footer_titulo img {
     width: 30px;
   }
 }
