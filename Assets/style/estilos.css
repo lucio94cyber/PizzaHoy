@@ -72,7 +72,7 @@ body a {
   }
   .menu_general img {
     width: 100%;
-    max-width: 120px;
+    max-width: 100px;
     padding: 5px;
   }
   .menu_general ul {
@@ -294,12 +294,12 @@ body a {
     font-size: 2rem;
     margin-top: 40px;
   }
-  .productos .venta_productos {
+  .venta_productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .productos img {
+  img {
     width: 300px;
     height: auto;
   }
