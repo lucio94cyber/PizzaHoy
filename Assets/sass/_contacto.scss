@@ -1,0 +1,66 @@
+@use "variables" as v;
+
+/*CONTACTO*/
+
+.contacto_portada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    h2{
+    font-size: 40px;
+    margin: 10px;
+    text-transform: uppercase;
+}}
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+.video_tomate{
+    width: 600px;
+    height: 400px;
+    max-width:600px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.forms_sobre_video{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%)/* Esto lo centra de verdad */;
+    width: 300px; /*mantiene compacto el formulario*/
+    padding: 60px;
+    font-size: 15px;
+    font: bold;
+label{
+    font-size: 20px;
+    font: bold;
+}}
+
+@media (min-width: 320px) and (max-width:430px){
+    .contacto_portada{
+        display: flex;
+        flex-direction: column;
+    h2{
+        font-size: 2rem;
+        margin-top: 40px;
+    }}
+    .contenedor{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    }
+    .video_tomate{
+        width: 350px;
+        height: 600px;
+    }
+    .forms_sobre_video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}

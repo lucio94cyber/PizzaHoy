@@ -1,0 +1,86 @@
+@use "variables" as v;
+
+/*CURSO*/
+
+.contenedor_curso {
+  margin: 10px;
+  padding: 10px;
+
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+  }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 20px;
+    padding: 20px;
+img{
+    width: 60vh;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 5px;
+}}
+
+.curso{
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
+}}
+
+.calendario-lista {
+    background-color: v.$colorsecundario;
+    padding: 30px;
+    color: v.$colorprimario;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width:430px){
+.contenedor_curso h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        margin: 10px;
+        padding: 15px;
+    img{
+        width: 100%;
+        max-width: 350px;
+        height: 150px;
+        object-fit: cover;
+        box-shadow: 0 4px 5px rgba(0,0,0,0.4);
+}
+.curso {
+    box-shadow: 0 5px;
+}
+    h3{
+    font-size: 1.1rem;
+}
+    p {
+    font-size: 0.9em;
+}}
+.calendario-lista{
+    padding: 10px;
+    font-size: 0.9rem;
+    border:#f7f4f4 solid 1px;
+h4 {
+    font-size: 1rem;
+    box-shadow: 0 1px;
+    margin: 10px;
+}
+}}

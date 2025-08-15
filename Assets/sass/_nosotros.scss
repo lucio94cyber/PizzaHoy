@@ -1,0 +1,87 @@
+@use "variables" as v;
+
+/*NOSOTROS*/
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+h2 {
+    font-size: 40px;
+    margin: 10px;
+    text-transform: uppercase;
+}}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.evento {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+}
+.izquierda {
+    flex-direction: row;
+}
+.derecha {
+    flex-direction: row-reverse;
+}
+
+.texto {
+    max-width: 400px;
+    text-align: left;
+h3 {
+    margin: 0;
+    color: v.$colorsecundario;
+    font-size: 1.2rem;
+}
+h4 {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+}
+p {
+    font-size: 1.5rem;
+    color: v.$colorsecundario;
+}}
+
+@media (min-width: 320px) and (max-width:430px){
+    .historia{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+    h2{
+        font-size: 2rem;
+        margin-top: 40px;
+    }}
+    .timeline{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .evento img{
+        width: 150px;
+        height: 150px;
+    }
+    .texto h3 {
+    font-size: 1.5rem;
+    }
+    .texto h4 {
+    font-size: 1.5rem;
+    }
+    .texto p {
+    font-size: 1rem;
+    }
+    }
