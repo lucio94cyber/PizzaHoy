@@ -32,12 +32,15 @@ img{
     text-align: center;
     border: 1px solid white;
     padding: 10px;
+
 h3{
     font-size: 1.5rem;
 }
+
 p{
     font-size: 1.2rem;
-}}
+}
+}
 
 .calendario-lista {
     background-color: v.$colorsecundario;
@@ -46,7 +49,7 @@ p{
     text-align: center;
 }
 
-@media (min-width: 320px) and (max-width:430px){
+@media (min-width: 320px) and (max-width: 430px) {
 .contenedor_curso h2 {
     font-size: 2rem;
     margin-top: 40px;

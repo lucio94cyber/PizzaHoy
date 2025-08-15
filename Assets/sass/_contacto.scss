@@ -8,11 +8,13 @@
     justify-content: center;
     flex-direction: column;
     margin: 20px;
+
     h2{
     font-size: 40px;
     margin: 10px;
     text-transform: uppercase;
-}}
+}
+}
 .contenedor{
     display: flex;
     align-items: center;
@@ -35,19 +37,23 @@
     padding: 60px;
     font-size: 15px;
     font: bold;
+
 label{
     font-size: 20px;
     font: bold;
-}}
+}
+}
 
-@media (min-width: 320px) and (max-width:430px){
+@media (min-width: 320px) and (max-width: 430px) {
     .contacto_portada{
         display: flex;
         flex-direction: column;
+
     h2{
         font-size: 2rem;
         margin-top: 40px;
-    }}
+    }
+    }
     .contenedor{
     position: relative;
     width: 100%;
