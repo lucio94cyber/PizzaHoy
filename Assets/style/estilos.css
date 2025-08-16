@@ -514,6 +514,9 @@ body a {
 }
 
 .forms_sobre_video {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
   position: absolute;
   text-align: center;
   top: 60%;
@@ -523,7 +526,6 @@ body a {
   width: 300px; /*mantiene compacto el formulario*/
   padding: 60px;
   font-size: 15px;
-  font: bold;
 }
 .forms_sobre_video label {
   font-size: 20px;

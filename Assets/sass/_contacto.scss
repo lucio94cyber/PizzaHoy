@@ -27,6 +27,9 @@
     border-radius: 5px;
 }
 .forms_sobre_video{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:10px;
     position: absolute;
     text-align: center;
     top: 60%;
@@ -36,7 +39,7 @@
     width: 300px; /*mantiene compacto el formulario*/
     padding: 60px;
     font-size: 15px;
-    font: bold;
+
 
 label{
     font-size: 20px;
