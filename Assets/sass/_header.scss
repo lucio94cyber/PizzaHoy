@@ -24,6 +24,7 @@
     }
     a{
         color:v.$colorsecundario;
+        font-size: 1.1rem;
     } & a:hover{
         outline: 2px solid  v.$colorprimario;
         background-color: v.$colorsecundario;
