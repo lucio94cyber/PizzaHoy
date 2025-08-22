@@ -150,8 +150,7 @@ body a {
 }
 .portal_texto button {
   font-family: "Playwrite Australia QLD";
-  font-size: 1.2rem;
-  background-color: rgba(248, 171, 71, 0.685);
+  background-color: rgba(250, 146, 11, 0.685);
   margin: 40px;
   padding: 20px;
   font-style: italic;
@@ -162,7 +161,9 @@ body a {
   color: rgba(255, 255, 255, 0.932);
 }
 .portal_texto a {
+  font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.932);
+  text-transform: uppercase;
 }
 
 /*Carousel*/

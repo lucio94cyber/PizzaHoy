@@ -20,7 +20,6 @@
     }
     button{
         font-family: v.$fuentesecundario;
-        font-size:1.2rem;
         background-color: v.$colorterciario;
         margin: 40px;
         padding: 20px;
@@ -31,7 +30,9 @@
         color:v.$colorsecundario;
     }}
     a{
+        font-size: 0.8rem;
         color:v.$colorsecundario;
+        text-transform: uppercase;
     }
 }
 
