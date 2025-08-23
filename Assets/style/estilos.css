@@ -237,9 +237,9 @@ body a {
     align-items: center;
     padding: 40px;
     margin: 0;
-    margin-top: 5px;
   }
   .portal_principal h2 {
+    margin-top: 10px;
     font-size: 30px;
   }
   .portal_principal button {
