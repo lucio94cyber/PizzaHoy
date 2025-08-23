@@ -30,7 +30,7 @@
         color:v.$colorsecundario;
     }}
     a{
-        font-size: 0.8rem;
+        
         color:v.$colorsecundario;
         text-transform: uppercase;
     }
@@ -104,6 +104,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
+    margin-top: 20px;
     h2{
         font-size: 30px;
     }
@@ -119,10 +120,12 @@
         margin: none;
     }
     .galeria_portada img{
-    
         width: 100%;
         max-width: 120px;
         height: 200px;
         object-fit: cover;
+    }
+    a{
+        font-size: 0.8rem;
     }
 }
