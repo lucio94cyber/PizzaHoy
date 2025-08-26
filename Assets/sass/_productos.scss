@@ -16,18 +16,24 @@ h2{
 }
 
 .venta_productos{
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+
+    .titulo_producto{
+        text-align: left;
+        font-size: 1.7rem;
+    }
 
 p{
-    font-size: 30px;
-    text-align: center;
-    margin: 20px;
+    max-width: 300px;
+    font-size: 1.1rem;
 }
 
 img{
-    width: 300px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
@@ -53,12 +59,21 @@ img{
 }
     .venta_productos{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
-    }
+        margin: 10px;
+        padding: 20px;
+    
+        .titulo_producto{
+            font-size: 1.2rem;
+        }
+        p{
+            text-align: center;
+        }
 
     img{
         width: 300px;
         height: auto;
     }
+}
 }

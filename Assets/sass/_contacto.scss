@@ -18,7 +18,8 @@
 .contenedor{
     display: flex;
     align-items: center;
-}
+    gap: 30px;
+
 .video_tomate{
     width: 600px;
     height: 400px;
@@ -32,44 +33,100 @@
     gap:10px;
     position: absolute;
     text-align: center;
-    top: 60%;
-    left: 50%;
-    z-index: 2;
+    top: 65%;
+    left: 25%;
+    z-index: 1;
     transform: translate(-50%, -50%)/* Esto lo centra de verdad */;
     width: 300px; /*mantiene compacto el formulario*/
     padding: 60px;
-    font-size: 15px;
-
 
 label{
-    font-size: 20px;
+    font-size: 25px;
     font: bold;
 }
 }
+
+.mapa{
+    display: flex; 
+    flex-direction: column;
+    }
+    iframe{
+        border-radius: 10px;
+
+    }
+}
+
+    .comiendo{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        img{
+            max-width: 200px;
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+    }
+
 
 @media (min-width: 320px) and (max-width: 430px) {
     .contacto_portada{
         display: flex;
         flex-direction: column;
-        
+    
     h2{
         font-size: 2rem;
         margin-top: 40px;
     }
-    }
+    
     .contenedor{
+    display: flex;
+    flex-direction: column;
     position: relative;
     width: 100%;
     justify-content: center;
-    }
+    
     .video_tomate{
-        width: 350px;
-        height: 600px;
+        width: 300px;
+        height: 400px;
     }
     .forms_sobre_video{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    }
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+    iframe{
+        width: 300px;;
+        height: auto;
+        object-fit: cover;
+    }
+}
+}
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .comiendo{
+        display: flex;
+        flex-direction: row;
+        img{
+            padding: 0px;
+            margin: 0px;
+            border-radius: 0px;
+            max-width: 250px;
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            &:nth-child(n+4){
+                display: none;
+            }
+        }
     }
 }
