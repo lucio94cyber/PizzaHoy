@@ -101,6 +101,7 @@ body a {
   gap: 20px;
 }
 .footer_titulo h2 {
+  text-transform: capitalize;
   font-size: 1.5rem;
   margin: 0;
 }
