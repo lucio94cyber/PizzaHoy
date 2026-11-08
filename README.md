@@ -5,7 +5,7 @@ Una propuesta web para el rubro gastronómico, pensada para presentar una pizzer
 
 ## 🌐 Proyecto web
 
-[**Explorar repositorio →**](https://github.com/lucio94cyber/PizzaHoy)
+[**Visitar PizzaHoy →**](https://pizza-hoy.netlify.app/)
 
 ## ✨ Características
 
